@@ -1,0 +1,21 @@
+body{
+    margin:0;
+    padding: 0;
+    background-image: url(https://wallpapercave.com/wp/wc1729460.jpg);
+    background-size: cover;
+
+}
+.rain{
+    height: 100vh;
+    background-image: url(https://th.bing.com/th/id/R.1b93ccc47708e73a6a7b80a08cec67f7?rik=AChhHuj1IMYRlA&riu=http%3a%2f%2fclipground.com%2fimages%2frain-clipart-no-background-14.png&ehk=R%2b3W6C%2fvt2hGFX2OanoHIAHYEI3PZEGTpndukw8hoFs%3d&risl=&pid=ImgRaw&r=0);
+    
+    animation: rain 0.3s linear infinite;
+}
+@keyframes rain{
+    0%{
+        background-position: 0% 0%;
+    }
+    0%{
+        background-position: 20% 100%;
+    }
+}
